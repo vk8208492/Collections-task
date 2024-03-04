@@ -1,18 +1,18 @@
-package app.Contact_User;
+package app.ContactUser;
 
-public class Contact_User {
+public class ContactUser {
 
     private final String name;
     private final String email;
 
-    public Contact_User(String name, String email) {
+    public ContactUser(String name, String email) {
         this.name = name;
         this.email = email;
     }
 
     @Override
     public String toString() {
-        return "Contact_User{" +
+        return "ContactUser{" +
                 "name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 '}';

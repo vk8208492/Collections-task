@@ -1,16 +1,16 @@
 package app.OutPutUser;
 
-import app.Contact_User.Contact_User;
+import app.ContactUser.ContactUser;
 
 import java.util.List;
 
 public class OutPutUser {
 
-    public void getOutPut(List<Contact_User> list){
+    public void getOutPut(List<ContactUser> list){
         int count = 0;
-        for (Contact_User contact_user: list){
+        for (ContactUser contactUser: list){
             count++;
-            System.out.println(count + ")" + contact_user);
+            System.out.println(count + ")" + contactUser);
         }
     }
 
